@@ -80,7 +80,7 @@ const Predict = () => {
     ip = ip.concat([parseInt(st)])
     ip = ip.concat([parseInt(classifier === 'Logistic Regression' ?1 : 0)])
     
-    await axios.post('/predict_data',ip ).then(res => {res.data.res === '0' ? setResult('No'): setResult('Yes');
+    await axios.post('https://heart-flask-backend.herokuapp.com//predict_data',ip ).then(res => {res.data.res === '0' ? setResult('No'): setResult('Yes');
        setLoading(false)})
   }
 
