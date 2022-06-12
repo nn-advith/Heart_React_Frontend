@@ -1,0 +1,41 @@
+body{
+    background-color: #ccc;
+    overflow: hidden;
+    display: flex;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #0044ff;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+.text{
+    text-align: justify;
+}
+
+.link{
+    color: #0055ff;
+}
